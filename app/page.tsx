@@ -1,5 +1,6 @@
-import Header from "./components/Header"
-import Body from "./components/Body"
+import Header from "./components/header"
+import Batata from "./components/batata"
+import Folderlist from "./components/folderlist"
 
 export default function Page() {
   return ( 
@@ -7,7 +8,9 @@ export default function Page() {
     
         <Header/>
 
-        <Body/>
+        <Batata/>
+
+        <Folderlist></Folderlist>
     
     </>
   ) 
