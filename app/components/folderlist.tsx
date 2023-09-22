@@ -4,7 +4,7 @@ export default function Folderlist() {
 
     <>
 
-        <div className="leading-5 pb-24 px-14 ">
+        <div className="w-[60%] leading-5 pb-24 px-14 ">
 
             <div className="pb-2">
 
