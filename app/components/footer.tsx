@@ -9,13 +9,15 @@ export default function Footer() {
 
         <div>
           <ul>
-            Contato
+            Adote seu pet
           </ul>
           <ul>
-            Contato
+            Aurora Social
+            {/* https://acesse.dev/YMrp2 */}
           </ul>
           <ul>
-            Contato
+            Sitio Dona Lucia
+            {/* https://www.sitiodonalucia.com.br/ */}
           </ul>
         </div>
 

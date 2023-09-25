@@ -2,14 +2,25 @@ import Image from "next/image"
 
 export default function Folderlist() {
     return (
-    <>
+        <>
 
             <div className="flex justify-end">
-{/* 
+
+                {/* <div className="">
+
+                    <Image className='w-25 h-25'
+                        src="/corgi.comendo.jpg"
+                        width={500}
+                        height={500}
+                        alt="Picture of the author"
+                    />
+
+                </div> */}
+
                 <div className="">
 
-                    <Image className='w-50 h-50'
-                        src="/corgi.comendo.jpg"
+                    <Image className='w-25 h-25'
+                        src="/cachorro.pula.come.jpg"
                         width={500}
                         height={500}
                         alt="Picture of the author"
@@ -21,13 +32,13 @@ export default function Folderlist() {
 
 
 
-                </div> */}
+                </div>
 
                 <div className="w-[60%] leading-5 pb-24 px-14 ">
 
-                    <section>
+                    <section className="">
 
-                        <div className="pb-2">
+                        <div className="pb-10">
 
                             <h1 className="font-semibold">
                                 Alimentação Adequada
@@ -38,7 +49,7 @@ export default function Folderlist() {
 
                         </div>
 
-                        <div className="pb-2 ">
+                        <div className="pb-10">
 
                             <h1 className="font-semibold">
                                 Abrigo Confortável
@@ -49,7 +60,7 @@ export default function Folderlist() {
 
                         </div>
 
-                        <div className="pb-2">
+                        <div className="pb-10">
 
                             <h1 className="font-semibold">
                                 Atenção e Afeto
@@ -60,7 +71,7 @@ export default function Folderlist() {
 
                         </div>
 
-                        <div className="pb-2">
+                        <div className="pb-10">
 
                             <h1 className="font-semibold">
                                 Exercício e Estimulação
@@ -71,7 +82,7 @@ export default function Folderlist() {
 
                         </div>
 
-                        <div className="pb-2">
+                        <div className="pb-10">
 
                             <h1 className="font-semibold">
                                 Socialização
@@ -85,11 +96,11 @@ export default function Folderlist() {
                     </section>
 
                 </div>
-                
+
             </div>
 
-    </>
+        </>
 
-            )
+    )
 
 }
