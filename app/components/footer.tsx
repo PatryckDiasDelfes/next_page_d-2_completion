@@ -5,18 +5,7 @@ export default function Footer() {
 
     <footer className="">
       
-      <div className="">
-
-        <Image className=' w-[100%]'
-          src="/background.png"
-          width={500}
-          height={500}
-          alt="Picture of the author"
-        />
-
-      </div>
-
-      <div className="flex justify-between px-40">
+      <div className="h-60 flex justify-between items-end p-6 px-40 text-3xl">
 
         <div>
           <ul>
