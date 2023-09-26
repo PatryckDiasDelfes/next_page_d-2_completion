@@ -5,23 +5,30 @@ export default function Footer() {
 
     <footer className="">
       
-      <div className="h-60 flex justify-between items-end p-6 px-40 text-3xl">
+      <div className="h-60 flex justify-between items-end p-6 px-40">
 
-        <div>
-          <ul>
+        <div className="">
+
+          <ul className="pb-4 text-[25px] font-bold">
             Adote seu pet
           </ul>
-          <ul>
-            Aurora Social
-            {/* https://acesse.dev/YMrp2 */}
+          <ul className="pb-2">
+            <button>
+              Aurora Social
+              {/* https://acesse.dev/YMrp2 */}
+            </button>
           </ul>
-          <ul>
-            Sitio Dona Lucia
-            {/* https://www.sitiodonalucia.com.br/ */}
+          <ul className="pb-2">
+            <button>
+              Sitio Dona Lucia
+              {/* https://www.sitiodonalucia.com.br/ */}
+            </button>
           </ul>
+
         </div>
 
         <div>
+
           <ul>
             Contato
           </ul>
@@ -31,9 +38,11 @@ export default function Footer() {
           <ul>
             Contato
           </ul>
+
         </div>
 
         <div>
+
           <ul>
             Contato
           </ul>
@@ -43,6 +52,7 @@ export default function Footer() {
           <ul>
             Contato
           </ul>
+
         </div>
 
       </div>

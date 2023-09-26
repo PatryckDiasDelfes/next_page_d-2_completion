@@ -2,8 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-footer{
-    background-image: url("../public/bg.png");
-    background-size: 100vw 57vh;
-}
+/* footer{
+    background-image: url("../public/bg.preto.png");
+    background-size: 100vw 95vh;
+} */
 
