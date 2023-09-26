@@ -1,6 +1,6 @@
 import Header from "./components/header"
 import Batata from "./components/batata"
-import Folderlist from "./components/folderlist"
+import TipList from "./components/tipList"
 import Footer from "./components/footer"
 
 export default function Page() {
@@ -11,7 +11,7 @@ export default function Page() {
 
         <Batata/>
 
-        <Folderlist/>
+        <TipList/>
 
         <Footer/>
     
