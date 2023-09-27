@@ -2,6 +2,7 @@
 
 export default function Batata() {
     return (
+
         <>
 
             <section className="flex px-14 leading-7 pt-6">
@@ -21,5 +22,6 @@ export default function Batata() {
             </section>
 
         </>
+        
     );
 }

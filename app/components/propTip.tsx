@@ -11,7 +11,7 @@ export default function Tip(props: TipProps) {
             <div className="pb-10">
 
                 <h1 className="font-semibold">
-                    {props.title}
+                    {props.title} 
                 </h1>
                 <span>
                     {props.text}
@@ -20,5 +20,6 @@ export default function Tip(props: TipProps) {
             </div>
 
         </>
+
     )
 }

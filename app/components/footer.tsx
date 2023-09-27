@@ -3,6 +3,7 @@ import Link from "next/link"
 
 export default function Footer() {
   return (
+
     <>
 
       <footer className="bg-[url('../public/bg.vermelho.png')] h-[10em] bg-cover bg-top">
@@ -44,5 +45,6 @@ export default function Footer() {
       </footer>
 
     </>
+    
   )
 }
