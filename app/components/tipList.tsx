@@ -1,8 +1,9 @@
 import Image from "next/image"
-import Tip from "./tip"
+import Tip from "./propTip"
 
 export default function TipList() {
     return (
+        
         <>
 
             <div className="flex justify-end">
