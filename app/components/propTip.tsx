@@ -13,6 +13,7 @@ export default function Tip(props: TipProps) {
                 <h1 className="font-semibold">
                     {props.title} 
                 </h1>
+                
                 <span>
                     {props.text}
                 </span>

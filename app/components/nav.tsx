@@ -1,4 +1,5 @@
 import Image from "next/image"
+import Link from "next/link"
 
 
 export default function Nav() {
@@ -24,7 +25,7 @@ export default function Nav() {
 
                 </button>
 
-                <button className='flex text-[20] font-bold border border-solid border-black p-3 rounded-xl place-items-center gap-2'>
+                <Link href={"/cat"} className='flex text-[20] font-bold border border-solid border-black p-3 rounded-xl place-items-center gap-2'>
                     Gato
 
                     <Image className='flex w-10 h-10 '
@@ -34,7 +35,7 @@ export default function Nav() {
                         alt="Picture of the author"
                     />
 
-                </button>
+                </Link>
 
                 <button className='flex text-[20] font-bold border border-solid border-black p-3 rounded-xl place-items-center gap-2'>
                     Adote um pet
